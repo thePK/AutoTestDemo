@@ -57,7 +57,7 @@ public class TestLogin {
   
   @BeforeClass
   public void beforeClass() {
-	  System.setProperty("webdriver.chrome.driver", ".\\lib\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "D:\\java\\Maven\\AutoTestDemo\\lib\\chromedriver.exe");
 	  driver = new ChromeDriver();
 	  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	  driver.manage().window().maximize();
