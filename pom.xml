@@ -65,6 +65,19 @@
 	</dependencies>
 	<build>
 		<plugins>
+		
+		<!-- 在这里是配置了java的变异环境，但是按理说不用重复配置，现在是想验证一下jenkins集成出错是因为此处没有配置，还是因为jenkins中需要配置jdk -->
+	<plugin>
+	    <groupId>org.apache.maven.plugins</groupId>
+	    <artifactId>maven-compiler-plugin</artifactId>
+	    <version>3.6.2</version>
+	    <configuration>
+	       <target>1.8</target>   
+	       <source>1.8</source>
+	       <encoding>utf-8</encoding>
+	    </configuration>
+	  </plugin>
+
 			<!-- 添加插件 关联testNg.xml -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
