@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16307" started-at="2019-01-14T07:08:08Z" finished-at="2019-01-14T07:08:24Z">
+  <suite name="Default suite" duration-ms="11303" started-at="2019-01-14T12:02:39Z" finished-at="2019-01-14T12:02:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16307" started-at="2019-01-14T07:08:08Z" finished-at="2019-01-14T07:08:24Z">
+    <test name="Default test" duration-ms="11303" started-at="2019-01-14T12:02:39Z" finished-at="2019-01-14T12:02:50Z">
       <class name="com.pengke.AutoTestDemo.TestLogin">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pengke.AutoTestDemo.TestLogin@c285f4]" name="beforeClass" is-config="true" duration-ms="12287" started-at="2019-01-14T15:08:08Z" finished-at="2019-01-14T15:08:20Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pengke.AutoTestDemo.TestLogin@c285f4]" name="beforeClass" is-config="true" duration-ms="5894" started-at="2019-01-14T20:02:39Z" finished-at="2019-01-14T20:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.pengke.AutoTestDemo.TestLogin@c285f4]" name="testLogin" duration-ms="4002" started-at="2019-01-14T15:08:20Z" finished-at="2019-01-14T15:08:24Z">
+        <test-method status="PASS" signature="testHHULogin()[pri:0, instance:com.pengke.AutoTestDemo.TestLogin@c285f4]" name="testHHULogin" duration-ms="5391" started-at="2019-01-14T20:02:45Z" finished-at="2019-01-14T20:02:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
+        </test-method> <!-- testHHULogin -->
       </class> <!-- com.pengke.AutoTestDemo.TestLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

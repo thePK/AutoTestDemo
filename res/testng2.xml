@@ -2,11 +2,23 @@
 <suite name="Suite2">
 	<test name="测试登录">
 		<classes>
-			<class name="com.pengke.AutoTestDemo.TestLogin" />
+			<class name="com.pengke.AutoTestDemo.TestLogin" >
+			
+				<!-- 控制脚本的执行 -->
+				<methods>
+					<include name="testHHULogin"></include>
+					<exclude name="testCMISLogin"></exclude>
+				</methods>
+			
+			</class>
+			
 		</classes>
 	</test>
-	<listeners>
+	
+	<!-- 添加ReportNg的监听器，修改最后的TestNg的报告变为reportng的报告  -->
+	<!-- <listeners>
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
-	</listeners>
+	</listeners> -->
+	
 </suite>
