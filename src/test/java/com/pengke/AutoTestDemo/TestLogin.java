@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -58,7 +59,9 @@ public class TestLogin {
   @BeforeClass
   public void beforeClass() {
 	  System.setProperty("webdriver.chrome.driver", "D:\\java\\Maven\\AutoTestDemo\\lib\\chromedriver.exe");
-	  driver = new ChromeDriver();
+	  ChromeOptions options = new ChromeOptions();
+	  options.setBinary("C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+	  driver = new ChromeDriver(options);
 	  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	  driver.manage().window().maximize();
 	 
